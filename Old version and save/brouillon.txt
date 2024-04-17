@@ -1,6 +1,0 @@
-print("vous avez le choix entre 3 items : la machette, le briquet, le --jsp quoi-- et le --jsp quoi-- mais votre sac ne peut contenir que 2 objets")
-buffer = int(input())
-print("vous avez choisi ", buffer)
-buffer = buffer - 1
-backpack[buffer] = 1
-print(backpack)
